@@ -1,6 +1,6 @@
-# Mintlify Starter Kit
+# Wacharlo
 
-Use the starter kit to get your docs deployed and ready to customize.
+Wachame es la **app de noticias locales y comunitarias** creada por y para latinos en EE.UU. Nuestro propósito es ofrecer información **auténtica**, **verificada**, y construir una red de **ayuda, acción y protección**. Aquí puedes estar al tanto de tu barrio, participar en debates comunitarios, aprender cómo votar, recibir alertas de emergencia o conectarte con organizaciones que te apoyan — todo dentro de un entorno **seguro y privado**.
 
 Click the green **Use this template** button at the top of this repo to copy the Mintlify starter kit. The starter kit contains examples with
 
@@ -10,7 +10,7 @@ Click the green **Use this template** button at the top of this repo to copy the
 - API reference pages
 - Use of popular components
 
-**[Follow the full quickstart guide](https://starter.mintlify.com/quickstart)**
+[**Follow the full quickstart guide**](https://starter.mintlify.com/quickstart)
 
 ## Development
 
@@ -40,5 +40,6 @@ Install our GitHub app from your [dashboard](https://dashboard.mintlify.com/sett
 - If a page loads as a 404: Make sure you are running in a folder with a valid `docs.json`.
 
 ### Resources
+
 - [Mintlify documentation](https://mintlify.com/docs)
 - [Mintlify community](https://mintlify.com/community)
