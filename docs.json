@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "maple",
+  "theme": "mint",
   "name": "Wacharlo Docs",
   "colors": {
     "primary": "#12c5d7",
@@ -91,6 +91,10 @@
   "logo": {
     "light": "/logo/Ligth.png",
     "dark": "/logo/Dark.png"
+  },
+  "background":{
+    "Light": "/background/LightB.png",
+    "dark": "/background/DarkB.jpg"
   },
   "navbar": {
     "links": [
