@@ -1,13 +1,13 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "Wacharlo Docs",
   "colors": {
     "primary": "#12c5d7",
     "light": "#07C983",
     "dark": "#15803D"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/Favicon.png",
   "navigation": {
     "tabs": [
       {
@@ -89,14 +89,14 @@
     }
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "/logo/Light.png",
+    "dark": "/logo/Dark.png"
   },
   "navbar": {
     "links": [
       {
         "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "href": "mailto:gerardo@wacharlo.com"
       }
     ],
     "primary": {
