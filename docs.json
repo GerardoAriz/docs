@@ -9,91 +9,157 @@
   },
   "favicon": "/Favicon.png",
   "navigation": {
-    "tabs": [
+    "languages": [
       {
-        "tab": "About",
-        "tab": "Guides",
-        "groups": [
+        "language": "en",
+        "tabs": [
           {
-            "group": "Bienvenido",
-            "pages": [
-              "index",
-              "quickstart",
-              "development"
+            "tab": "About",
+            "groups": [
+              {
+                "group": "Welcome",
+                "pages": [
+                  "en/index",
+                  "en/quickstart",
+                  "en/development"
+                ]
+              },
+              {
+                "group": "Customization",
+                "pages": [
+                  "en/essentials/settings",
+                  "en/essentials/navigation"
+                ]
+              },
+              {
+                "group": "Writing content",
+                "pages": [
+                  "en/essentials/markdown",
+                  "en/essentials/code",
+                  "en/essentials/images",
+                  "en/essentials/reusable-snippets"
+                ]
+              },
+              {
+                "group": "AI tools",
+                "pages": [
+                  "en/ai-tools/cursor",
+                  "en/ai-tools/claude-code",
+                  "en/ai-tools/windsurf"
+                ]
+              }
             ]
           },
           {
-            "group": "Customization",
-            "pages": [
-              "essentials/settings",
-              "essentials/navigation"
-            ]
-          },
-          {
-            "group": "Writing content",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
-            ]
-          },
-          {
-            "group": "AI tools",
-            "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
+            "tab": "API Reference",
+            "groups": [
+              {
+                "group": "API documentation",
+                "pages": [
+                  "en/api-reference/introduction"
+                ]
+              },
+              {
+                "group": "Endpoint examples",
+                "pages": [
+                  "en/api-reference/endpoint/get",
+                  "en/api-reference/endpoint/create",
+                  "en/api-reference/endpoint/delete",
+                  "en/api-reference/endpoint/webhook"
+                ]
+              }
             ]
           }
         ]
       },
       {
-        "tab": "API reference",
-        "groups": [
+        "language": "es",
+        "tabs": [
           {
-            "group": "API documentation",
-            "pages": [
-              "api-reference/introduction"
+            "tab": "Acerca",
+            "groups": [
+              {
+                "group": "Bienvenido",
+                "pages": [
+                  "es/index",
+                  "es/quickstart",
+                  "es/development"
+                ]
+              },
+              {
+                "group": "Personalización",
+                "pages": [
+                  "es/essentials/settings",
+                  "es/essentials/navigation"
+                ]
+              },
+              {
+                "group": "Escribir contenido",
+                "pages": [
+                  "es/essentials/markdown",
+                  "es/essentials/code",
+                  "es/essentials/images",
+                  "es/essentials/reusable-snippets"
+                ]
+              },
+              {
+                "group": "Herramientas de IA",
+                "pages": [
+                  "es/ai-tools/cursor",
+                  "es/ai-tools/claude-code",
+                  "es/ai-tools/windsurf"
+                ]
+              }
             ]
           },
           {
-            "group": "Endpoint examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+            "tab": "Referencia API",
+            "groups": [
+              {
+                "group": "Documentación de API",
+                "pages": [
+                  "es/api-reference/introduction"
+                ]
+              },
+              {
+                "group": "Ejemplos de Endpoint",
+                "pages": [
+                  "es/api-reference/endpoint/get",
+                  "es/api-reference/endpoint/create",
+                  "es/api-reference/endpoint/delete",
+                  "es/api-reference/endpoint/webhook"
+                ]
+              }
             ]
           }
         ]
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Community",
-          "href": "https://mintlify.com/community",
-          "icon": "slack"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
+    ]
+  },
+  "global": {
+    "anchors": [
+      {
+        "anchor": "Documentation",
+        "href": "https://mintlify.com/docs",
+        "icon": "book-open-cover"
+      },
+      {
+        "anchor": "Community",
+        "href": "https://mintlify.com/community",
+        "icon": "slack"
+      },
+      {
+        "anchor": "Blog",
+        "href": "https://mintlify.com/blog",
+        "icon": "newspaper"
+      }
+    ]
   },
   "logo": {
     "light": "/logo/Ligth.png",
     "dark": "/logo/Dark.png"
   },
-  "background":{
+  "background": {
     "light": "/background/LightB.png",
     "dark": "/background/DarkB.jpg"
   },
@@ -112,15 +178,15 @@
   },
   "contextual": {
     "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
-   ]
+      "copy",
+      "view",
+      "chatgpt",
+      "claude",
+      "perplexity",
+      "mcp",
+      "cursor",
+      "vscode"
+    ]
   },
   "footer": {
     "socials": {
