@@ -93,7 +93,7 @@
     "dark": "/logo/Dark.png"
   },
   "background":{
-    "Light": "/background/LightB.png",
+    "light": "/background/LightB.png",
     "dark": "/background/DarkB.jpg"
   },
   "navbar": {
